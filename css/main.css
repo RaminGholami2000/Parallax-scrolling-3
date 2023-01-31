@@ -1,0 +1,90 @@
+body{
+    min-height: 2000px;
+    direction: rtl;
+}
+@font-face {
+    font-family: Iran-sans;
+    src: url('../fonts/fa/IRAN\ Sans\ Regular.ttf');
+}
+@font-face {
+    font-family: Anton;
+    src: url('../fonts/eng/Anton-Regular.ttf');
+}
+div.parallax-1{
+    width: 100%;
+    height: 900px;
+    background-image: url('../images/parallax-1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.parallax-2{
+    width: 100%;
+    height: 900px;
+    background-image: url('../images/parallax-2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+div.parallax-1>h1{
+    text-align: center;
+    font-family: Anton;
+    font-size: 60px;
+    color: whitesmoke;
+
+}
+div,.parallax-1>p.first{
+    font-size: 40px;
+    font-family: Iran-sans;
+color: whitesmoke;
+}
+div.parallax-2{
+    font-family: Iran-Sans;
+    font-size: 40px;
+    color: gainsboro;
+
+}
+div.gallery{
+background-color: black;
+}
+div.gallery>*{
+    width: 170px;
+    height: 100px;
+    background-size: cover;
+    display: inline-block;
+    margin-right: 8px;
+
+}
+div.gallery>div.gallery1-1{
+    background-image: url('../images/gallery-1.jpg');
+}
+div.gallery>div.gallery1-2{
+    background-image: url('../images/gallery-2.jpg');
+}
+div.gallery>div.gallery1-3{
+    background-image: url('../images/gallery-3.jpg');
+}
+div.gallery>div.gallery1-4{
+    background-image: url('../images/gallery-4.jpeg');
+}
+div.gallery>div.gallery1-5{
+    background-image: url('../images/gallery-5.jpg');
+}
+div.gallery>div.gallery1-6{
+    background-image: url('../images/gallery-6.webp');
+}
+div.gallery>div.gallery1-7{
+    background-image: url('../images/gallery-7.avif');
+}
+div.gallery>div.gallery1-8{
+    background-image: url('../images/gallery-8.jpg');
+}
+div.footer{
+    width: 100%;
+    height: auto;
+    background-color: #252429;
+}
+div.footer>*{
+    font-family: Anton;
+    font-size: 30px;
+margin-right: 250px;
+color: whitesmoke;
+}

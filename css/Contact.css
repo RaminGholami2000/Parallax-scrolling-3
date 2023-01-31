@@ -1,0 +1,16 @@
+body>*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div.slider{
+    width: 98vw;
+    height: 100vh;
+    background-image: url('../images/background3.jpg');
+    background-size: cover;
+padding-top: 350px;
+overflow-x: hidden;
+}
+div.slider>table{
+    color: whitesmoke;
+}

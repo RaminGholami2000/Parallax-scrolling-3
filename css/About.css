@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Iran-Snas;
+    src: url('../font/fa/IRAN\ Sans\ Regular.ttf');
+}
+body>*{
+    direction: rtl;
+    text-align: left;
+    font-size: 25px;
+}
+div.about>div.image>img.first{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-image: url('../images/FB_IMG_1644140931790.jpg');
+    background-size: cover;
+  margin-top: 100px;
+}
+div.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/background4.jpg');
+}
+div.about>img.Ramin{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-image: url('../images/FB_IMG_1644140931790.jpg');
+    background-size: cover;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+div.about>p.text-1{
+    width: 200px;
+    display: inline-block;
+    color: whitesmoke;
+   padding-left: 100px;
+   text-align: left;
+   line-height: 40px;
+}
+div.about>div.text>p.text-1{
+    padding-top: 100px;
+}
